@@ -1,0 +1,14 @@
+###
+GET http://localhost:8080/api/moods
+
+###
+GET http://localhost:8080/api/moods/2
+
+###
+POST http://localhost:8080/api/moods/
+Content-Type: application/json
+
+{
+    "MoodScore": 24
+
+}
